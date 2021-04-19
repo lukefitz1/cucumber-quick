@@ -116,7 +116,7 @@ export const createCommandToExecuteScenario = (scenarioName: string, tool: strin
 	}
 	const toolCommands: Map<any, any> = new Map()
 		.set('protractor', `--cucumberOpts.name="${scenarioName}"`)
-		.set('webdriverio', `--cucumberOpts.name="${scenarioName}"`)
+		.set('webdriverio', `--cucumberOpts.tagExpression="${scenarioName}"`)
 		.set('cypress', `run -e TAGS="${scenarioName.split(/(\s+)/)[0]}"`)
 		.set('cucumberjs', `--name "${scenarioName}"`);
 

@@ -1,9 +1,9 @@
 {
-	"name": "cucumberquick",
-	"displayName": "Cucumber Quick",
+	"name": "cucumberquick-nutrien",
+	"displayName": "Cucumber Quick - Nutrien",
 	"description": "Cucumber Quick - a quick cucumber executer",
 	"version": "2.2.0",
-	"publisher": "AbhinabaGhosh",
+	"publisher": "LukeFitzgerald",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
