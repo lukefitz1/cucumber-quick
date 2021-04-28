@@ -21,7 +21,7 @@
 		"commands": [
 			{
 				"command": "execute.scenario",
-				"title": "Run Cucumber Scenario"
+				"title": "Run Cucumber Scenario with Tag"
 			},
 			{
 				"command": "execute.feature",

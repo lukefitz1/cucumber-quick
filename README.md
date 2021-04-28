@@ -2,6 +2,11 @@
 
 Cucumber-Quick helps you to run cucumber scenario and features directly from vscode editor. You can simply right click on any feature file and choose the option from the context menu to run a specific scenario or the whole feature file.
 
+## Installing locally
+- To install, clone this repo into your /.vscode/extensions directory
+- Run `npm install`
+- Run `npm run vscode:prepublish` 
+
 ## Supported Tools
 
 Currently we support:
