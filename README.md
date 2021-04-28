@@ -4,8 +4,23 @@ Cucumber-Quick helps you to run cucumber scenario and features directly from vsc
 
 ## Installing locally
 - To install, clone this repo into your /Users/[YOUR_USER]/.vscode/extensions directory
-- Run `npm install`
-- Run `npm run vscode:prepublish` 
+- Once you have the repo cloned into /.vscode/extensions, cd into the cucumber-quick folder, and run the following commands:
+- `npm install`
+- `npm run vscode:prepublish` 
+- Now, in your UAT repo, add the settings.json file to the .vscode directory and add the following configuration information in there:
+```ts
+// .vscode > settings.json
+
+{
+  "cucumber-quick": {
+		"tool": "webdriverio",
+		"script": "npx wdio relative-path/to/wdio.conf.js"
+	}
+}
+
+```
+- Be sure to change the `script` command to point to the wdio.conf.js file in the appropriate tests folder for the test you want to run
+- Once these commands run successfully, if you right click on a tag, you will see the option to "Run Cucumber Scenario with Tag"
 
 ## Supported Tools
 
