@@ -19,7 +19,7 @@ Cucumber-Quick helps you to run cucumber scenario and features directly from vsc
 }
 
 ```
-- Be sure to change the `script` command to point to the wdio.conf.js file in the appropriate tests folder for the test you want to run
+- Be sure to change the `script` command to point to the wdio.conf.js file in the appropriate tests folder for the test you want to run  (e.g. tests-exh/wdio.conf.js).
 - Once these commands run successfully, if you right click on a tag, you will see the option to "Run Cucumber Scenario with Tag"
 
 ## Supported Tools
